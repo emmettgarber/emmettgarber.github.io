@@ -1,6 +1,7 @@
 body {
   background-image: url(emmettgarber.github.io/imgs/space_background.jpg);
   background-color: grey;
+  background-size: 100% 100%;
 }
 body section ul li{
   background-color: #ebe76a;
@@ -17,12 +18,15 @@ a:link{
   }
 ul{
   list-style-type: none;
+  position: absolute;
+  right: 15em;
+  bottom: 3em;
 }
 h1{
   background-color: #ebe76a;
   width: 11em;
   text-align: center;
-  margin-left: 50%;
+  margin-left: 30%;
   margin-right: 50%;
   color: #4ea36c;
 }
@@ -35,7 +39,15 @@ footer{
   background-color: #EB5F1A;
   height: 5em;
   width: 25em;
+  margin-right: 10%;
+  float: right;
 }
 body section a{
   background-color: #ebe76a;
+}
+#toolbar{
+  position: relative;
+  left: 1em;
+  top: 15em;
+  margin-right: 65%;
 }
