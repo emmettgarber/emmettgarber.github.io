@@ -18,4 +18,5 @@ probalby need a size change an adjustments based on screen size.
 What did you learn about adding and formatting elements with CSS in this challenge?
 One needs to think about a variety of factors from beginning to end.  If one writes HTML could in a less than optimal way
 completing the CSS to create the right look can be very difficult and time consuming.  Once you move to the CSS you need to consider 
-all of the elements you are working on and decide the best way to set them all up in relation to each other.
+all of the elements you are working on and decide the best way to set them all up in relation to each other.  If one can properly conceptualize in 
+the beginning you will have the msot success.
