@@ -1,42 +1,49 @@
 body{
-  background-image: url(emmettgarber.github.io/imgs/wood-floor-1170743_1920.jpg);
+  background-image: url(http://emmettgarber.github.io/imgs/wood-floor-1170743_1920.jpg);
   background-color: #6E4A3B;
 }
 p{
-  margin-left: 50%;
-  Margin-right: 50%;
-  width: 80%;
+  margin-left: 30%;
+  Margin-right: 0%;
+  width: 60%;
   background-color: #CBC8CC;
   display: block;
   margin-bottom: 0px;
 }
 h1{
-  display: block;
-  margin-left: 50%;
-  margin-right: 50%;
+  display: inline-block;
+  margin-left: 30%;
+  margin-right: 0%;
   color: #F5E6F7;
   height: 5em;
   width: 25em;
 }
+img{
+  display: inline-block;
+  height: 7em;
+  width: 15em;
+  float: right;
+  margin-top: -10em;
+}
 h2{
   display: block;
   width: 40%;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: 30%;
+  margin-right: 0%;
   color: #F5E6F7;
 }
 h3{
   display: block;
   width: 40%;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: 30%;
+  margin-right: 00%;
   color: #F5E6F7;
 }
 h4{
   display: block;
   width: 40%;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: 30%;
+  margin-right: 0%;
   color: #F5E6F7;
 }
 footer a{
