@@ -1,4 +1,19 @@
 body {
-  background-image: url(https://pixabay.com/photo-1170743);
-  background-color: #747d80;
+  background-image: url(emmettgarber.github.io/imgs/wood-floor-1170743_1920.jpg);
+}
+body section ul li{
+  background-color: #3A13A8;
+  color: #FAF5F7;
+  width: 8em;
+  height: 1.5em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+a:link{
+  text-decoration: none;
+  color: #FAF5F7;
+  }
+ul{
+  list-style-type: none;
 }
