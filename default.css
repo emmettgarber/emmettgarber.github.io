@@ -1,9 +1,16 @@
 body {
+<<<<<<< HEAD
   background-image: url(emmettgarber.github.io/imgs/space_background.jpg);
   background-color: grey;
 }
 body section ul li{
   background-color: #ebe76a;
+=======
+  background-image: url(emmettgarber.github.io/imgs/wood-floor-1170743_1920.jpg);
+}
+body section ul li{
+  background-color: #3A13A8;
+>>>>>>> 74b7692f16c06eddb81d882fdcedade92eeed0a1
   color: #FAF5F7;
   width: 8em;
   height: 1.5em;
@@ -19,6 +26,7 @@ ul{
   list-style-type: none;
 }
 h1{
+<<<<<<< HEAD
   background-color: #ebe76a;
   width: 11em;
   text-align: center;
@@ -35,4 +43,10 @@ footer{
   background-color: #EB5F1A;
   height: 5em;
   width: 25em;
+=======
+  top: 0px;
+  background-color: #3a13a8;
+  width: 100%;
+  margin-top: -20px;
+>>>>>>> 74b7692f16c06eddb81d882fdcedade92eeed0a1
 }
