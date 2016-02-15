@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link style="text/css" rel="stylesheet" href="blog.css">
+    <title>Emmett's DBC Blog | Arrays and Hashes</title>
+  </head>
+  <body>
+    <section>
+      <h1>
+       Emmett's DBC Blog
+      </h1>
+      <img src="http://emmettgarber.github.io/imgs/rome-photo.jpg">
+    </section>
+    <section>
+        <h2>
+          Arrays and Hashes
+        </h2>
+        <h3>
+          Similarities and Differences
+        </h3>
+        <h4>
+          February 7, 2016
+        </h4>
+    </section>
+    <p>An array is a list of objects that are stored.  The objects can be integers or strings, and are stored in an order.  This order is important, as it is this order that one uses to access objects in array.  The order starts at 0 and goes up by one for each object in an array.  Lets look at how to make a an array of 3 object, and how to call each of them.  To create the array: new_Array = [ "soccer", "pizza", 23].  To access soccer one would type: new_Array[0], to acces pizza: new_array[1], and to access 23 new_Array[2].  </p>
+    <p>Hashes are similar in that they also store objects, which can be integers or strings, but unlike arrays this data is stored in pairs, not a list.  For each pair, one can access the information by calling on the first item in the pair.  To create a hash one would type:  new_hash{  "first" => "me", "second" => "you", "third" => "them"}.  To call on the 'me', one would type new_hash["first"] etc.</p>
+    <p>Now that I've shown you how to create and access the values in a hash or array, let’s talk about their similarities and differences.  They are both indexed collections, whose values can be called by using a key, but for arrays we use an integer key in regards to the objects ordered in the array and for hashes we use the key the user inputs.  Right there is another difference, is that arrays come in a specific order while hashes do not.</p>
+    <p>When would we use array vs a hash? You want to use arrays when you just have a list of things, lets say dog breeds dog_array["corgi", "retriever", "St Bernard"].  But lets say instead we want to know, the size of dog when we look up the breed, then we would want to use a hash: dog_hash{ "corgi" => "small", "retriever" => "large", "St Bernard" => "huge"}.</p>  
+    <section>
+      <a href="#">Blog Index</a><br>
+      <a href="#">Related Posts</a>
+    </section>
+  </body>
+  <footer>
+    <a href="#">About me </a>
+    <a href="#">Contact Me</a> <a href="#">Home</a>
+  </footer>
+</html
