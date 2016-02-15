@@ -4,7 +4,7 @@ body {
   background-size: 100% 100%;
 }
 body section ul li{
-  background-color: #ebe76a;
+  background-color: #1D4C5C;
   color: #4ea36c;
   width: 8em;
   height: 1.5em;
@@ -16,43 +16,41 @@ a:link{
   text-decoration: none;
   color: #FAF5F7;
   }
-ul{
-  list-style-type: none;
-  position: absolute;
-  right: 15em;
-  bottom: 3em;
-}
+
 h1{
   background-image: url(http://emmettgarber.github.io/imgs/wedding.png);
   background-color: #ebe76a;
-  width: 11em;
+  width: 80%;
   text-align: center;
-  margin-left: 30%;
-  margin-right: 50%;
-  color: #4ea36c;
+  color: #1E2021;
+  height: 6em;
+  margin-left: 10%;
+  clear: both;
 }
 footer{
-  position: absolute;
-  margin-bottom: 0px;
+  position: relative;
+  clear: both;
   bottom: 0px;
+  width: 100%;
+}
+ul{
+  list-style-type: none;
 }
 #blurb{
-  background-color: #EB5F1A;
+  background-color: #595B5C;
+  display: inline-block;
   height: 5em;
   width: 25em;
   margin-right: 10%;
   float: right;
+  color: #F5E6F7;
 }
 body section a{
-  background-color: #ebe76a;
+  background-color: #1D4C5C;
 }
 #toolbar{
   position: relative;
-  left: 1em;
-  top: 15em;
-  margin-right: 65%;
-<<<<<<< HEAD
+  display: inline-block;
   color: #4ea36c;
-=======
->>>>>>> ca062892f0bd4a190c36d5ac6db602d7fed5ce93
+  clear: both;
 }
