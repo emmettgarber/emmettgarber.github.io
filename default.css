@@ -1,5 +1,5 @@
 body {
-  background-image: url(emmettgarber.github.io/imgs/space_background.jpg);
+  background-image: url(http://emmettgarber.github.io/imgs/wood-floor-1170743_1920.jpg);
   background-color: grey;
   background-size: 100% 100%;
 }
@@ -23,6 +23,7 @@ ul{
   bottom: 3em;
 }
 h1{
+  background-image: url(http://emmettgarber.github.io/imgs/wedding.png);
   background-color: #ebe76a;
   width: 11em;
   text-align: center;
