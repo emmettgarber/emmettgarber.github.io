@@ -54,3 +54,8 @@ body section a{
   color: #4ea36c;
   clear: both;
 }
+#list {
+  display: block;
+  clear: both;
+  margin-left: 70%;
+}
