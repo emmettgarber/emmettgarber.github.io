@@ -59,9 +59,10 @@ section a{
 #example {
   display: block;
   position: relative;
-  height: 3.5em;
+  height: 7em;
   width: 12em;
   float: none;
   margin-bottom: 4em;
   clear: both;
+  background-color: transparent;
 }
