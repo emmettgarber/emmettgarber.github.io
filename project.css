@@ -1,0 +1,69 @@
+body {
+  background-image: url(http://emmettgarber.github.io/imgs/wood-floor-1170743_1920.jpg);
+  background-color: grey;
+  background-size: 100% 100%;
+}
+body section ul li{
+  background-color: #1D4C5C;
+  color: #4ea36c;
+  width: 8em;
+  height: 1.5em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+a:link{
+  text-decoration: none;
+  color: #FAF5F7;
+  }
+
+h1{
+  background-image: url(http://emmettgarber.github.io/imgs/wedding.png);
+  background-color: #ebe76a;
+  width: 80%;
+  text-align: center;
+  color: #1E2021;
+  height: 6em;
+  margin-left: 10%;
+  clear: both;
+}
+footer{
+  position: relative;
+  clear: both;
+  bottom: 0px;
+  width: 100%;
+}
+ul{
+  list-style-type: none;
+}
+#blurb{
+  background-color: #595B5C;
+  display: block;
+  height: 5em;
+  width: 25em;
+  margin-right: 10%;
+  float: right;
+  color: #F5E6F7;
+  clear: both;
+}
+body section a{
+  background-color: #1D4C5C;
+}
+#toolbar{
+  position: relative;
+  display: inline-block;
+  color: #4ea36c;
+  clear: both;
+}
+#list {
+  display: block;
+  clear: both;
+  margin-left: 70%;
+}
+#project{
+  position: relative;
+  display: block;
+  clear: both;
+  margin-left: 30%;
+  margin-top: 5em;
+}
