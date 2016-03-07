@@ -66,3 +66,13 @@ section a{
   clear: both;
   background-color: transparent;
 }
+#example2 {
+  display: block;
+  position: relative;
+  height: 3.5em;
+  width: 12em;
+  float: none;
+  margin-bottom: 1em;
+  clear: both;
+  background-color: transparent;
+}
