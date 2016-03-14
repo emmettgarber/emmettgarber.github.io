@@ -1,0 +1,37 @@
+tml>
+  <head>
+    <link style="text/css" rel="stylesheet" href="cheatsheet.css">
+    <title>Iteration Cheat Sheet</title>
+  </head>
+  <body>
+      <section id="title">
+        <h2>Iteration Cheat Sheet</h2>
+      </section>
+      <div id="ruby">
+        <h4>Iteration In Ruby</h4>
+        <p>When wanting to iterate over an item in ruby, there are a number of built in tools that you can utilize.</p>
+        <ul>
+          <li>You can use the each do function.  Written out as either "object.each do |x| block" or "object.each { |x| block}"</li>
+          <li>For hashes make sure to include two variables in your code so you can access keys and values i.e. "object.each { |x, y| block}"</li>
+          <li>If you have a set amount of times you want to do something you can use the "x.times do block" or "x.times{block}".</li>
+          <li>When manipulating arrays, remember pop and push can often be helpful items in completing tasks.</li>
+          <li>If you are changing variables or objects make sure to consider whether your method is destructive or not.</li>
+          <li>For more info and objects checkout <a href="http://ruby-doc.org/docs/keywords/1.9/Object.html">Ruby Docs</a></li>
+        </ul>
+      </div>
+      <div id="js">
+        <h4>Iteration in JavaScript</h4>
+        <p>When wanting to iterate over an item in Javascript, there is less flexibility than Ruby.  You will generally need to use a for loop to iterate in JavaScript</p>
+        <ul>
+          <li>When iterating over an array you will want to use a for loop that looks like this for(i=0; i &#8249 array.length; i++) {block}.  Use array[i] to call on the location you need to iterate on</li>
+          <li>When iterating over an object in JavaScript the for loop will look like this for(var key in object) {block}.  You can then call the item you need by using object[key].</li>
+          <li>Remember you do not have to use key, it can be any variable. This can be important if you want to nest for loops within each other to access nested objects.</li>
+          <li>For more info check out <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration">Mozilla Developer Network</a></li>
+        </ul>  
+      </div>
+      <div id="note">
+        <p>Remember these are the basic tools to get the job done.  Be creative, there are lots of solutions to most problems. Experiment and have fun to create the right solution for your task.</p>
+      </div>
+    
+  </body>
+</html>
